@@ -116,7 +116,7 @@ public class ScrabbleGame {
             String fileName = "src/main/resources/json/words.json";
             BufferedReader reader = new BufferedReader(new FileReader(fileName));
 
-
+            /* Parse JSON file */
             Map<?, ?> dictionaryMap = parseJsonFile(reader);
 
             // MAIN SCRABBLE GAME ALGORITHM
